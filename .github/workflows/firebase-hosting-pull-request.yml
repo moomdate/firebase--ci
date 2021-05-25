@@ -19,5 +19,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SVELTE_9B1CD }}'
           projectId: svelte-9b1cd
           channelId: 'pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}'
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+#        env:
+#          FIREBASE_CLI_PREVIEWS: hostingchannels
