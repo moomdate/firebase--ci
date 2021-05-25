@@ -1,5 +1,5 @@
 <script>
-	export let name = 'Firebase ci';
+	export let name;
 </script>
 
 <main>
